@@ -1,0 +1,156 @@
+
+/*-------- Essentials------- */
+body{font-family: "Montserrat";
+text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6
+{font-weight: bold;
+
+}
+p{
+   color:#8f8f8f;
+ font-size: 1.2rem;
+font-family:"Montserrat-Light";}
+
+
+
+
+
+
+/*-------- Headings------- */
+.big-heading{font-weight: 900;
+font-size: 3.5rem;
+line-height: 1.5;}
+
+.section-heading{font-size: 3rem;
+line-height: 2;}
+
+
+/*---------- Containers----------- */
+.container-fluid{padding: 7% 15%;}
+
+/* ------------Sections-------- */
+.colored-section{background-color: #FF4C68;
+color:white; }
+
+.white-section{
+  background-color: #fff;
+
+}
+
+
+
+
+
+
+
+/* Title Section */
+
+#title .container-fluid{padding:3% 15% 7%;
+text-align: left; }
+
+
+
+
+
+/* Navigation Bar */
+.navbar{
+padding-bottom: 4.5rem;}
+.navbar-brand{font-size:2.5rem;
+font-weight:bold;
+font-family: "Ubuntu";}
+.nav-item{padding:0 18px;}
+.nav-link{font-size: 1.5rem;
+font-family: "Montserrat-Light";}
+
+.title-image{transform: rotate(25deg);
+width:250px; height:600px;
+position: absolute;
+right:30%;
+}
+
+
+
+
+
+
+
+
+
+/*-------- Features Section----------- */
+#features{
+   padding:3% 0;
+  position: relative;
+  z-index: 1;
+}
+.icon{font-size: 3.5rem;
+color:#ef8172;
+padding-bottom: 20px;}
+.icon:hover{color:#ff4c68;}
+
+.column{padding:5%;
+}
+.feature-title{font-size: 1.5rem;}
+
+/*------- Testimonial Section-------- */
+#testimonials{
+  padding:3% 0;
+  background-color: #ef8172;
+
+
+}
+
+
+.testimonial-img{width:10%;
+border-radius:100%;
+margin:20px;
+}
+.testimonial-text{  font-size: 3rem;
+  line-height: 2;
+}
+
+/*-------- Press Section------ */
+#press{padding:3% 0;
+background-color:#ef8172;
+
+}
+.press-img{width:10%;
+margin:20px 20px 20px 50px;}
+
+/* -------Pricing Section-------- */
+#pricing{padding:100px;
+}
+.price-button{
+width:90%;}
+.price-col{padding:3%;}
+.breed{font-size: 1.5rem;}
+.prices{font-size: 3rem;
+line-height: 2;}
+
+/*---------- CTA Section--------- */
+#cta{}
+
+/* Download Buttons */
+.download-button{margin:5% 3% 5% 0;}
+
+/*----------- Footer Section------------ */
+#footer{}
+.footer-icon{padding:10px;
+color:black;}
+.footer-icon:hover{color:#ff4c68;}
+.copyright{padding:1%;
+}
+
+
+@media  (max-width: 1200px)
+{
+
+  .title-image{position: static;
+  transform: rotate(0);}
+
+  .title-col{
+    text-align: center;
+  }
+
+}
